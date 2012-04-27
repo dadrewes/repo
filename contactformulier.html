@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Feedback Form</title>	
+
+
+<title>Drewes zijn Portfolio</title>
+<link rel="stylesheet" href="style.css">
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $("#PP").datepicker();
+  });
+</script>
+
+</head>
+
+
+
+<body> 
+
+<div ID="PP"></div>
+
+<div ID="box">
+<h1>Voor meer informatie, stuur hier een mail.</h1>
+<form action="send_mail.php" method="post">
+<table>
+<tr>
+<td>E-mail Adress:</td>
+<td>
+<input type="text" name="email_address" value="" maxlength="100" />
+</td>
+</tr>
+<tr>
+<td>Comments:</td>
+<td>
+<textarea rows="20" cols="50" name="comments"></textarea>
+</td>
+</tr>
+<tr><td>&nbsp;</td>
+<td>
+<input type="submit" value="Submit" />
+</td>
+</tr>
+</table>
+</form>
+<p> en anders kun je mij wel vinden via <a href="http://www.facebook.com/drewesattema">facebook</a> <br> of kun je me gewoon even bellen op mijn mobiel :0643426344</p>
+
+</div>
+
+<div class="tekst"> <img border="0" src="http://www.chuckbauman.com/hot-rod-flames-color.jpg" width="20%" height="64b" />
+ Contact informatie</div> 
+ 
+<div class="menu"> 
+<a href="index.html" > Home </a><br><br> 
+<a href="overmij.html" > Over mij </a><br><br>
+<a href="hobbies.html" > Hobbies </a><br><br>
+<a href="portfoliopagina.html" > Portfolio pagina </a>
+</div>
+
+
+</body>
+
+</html>
