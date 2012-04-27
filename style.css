@@ -1,0 +1,208 @@
+html, body 
+{margin: 0;
+padding: 0}
+
+body{
+background-image: url('achtergrond.jpg');
+background-repeat: no-repeat;
+position: static;;
+background-size 100%}
+
+div.tekst {
+ background-color: black;
+ border-style:outset; 
+ border-width: 7px;
+ border-color: darkgray;
+ box-sizing:border-box;  
+ font-size: 50px;
+ font-weight:bold;
+ font-family:Arial,Helvetica,sans-serif;  
+ width: 100%;
+ color:red;
+ box-shadow: 0px 0px 5px white
+ }
+   
+div.menu {
+ list-style-type: none;
+ border-style:outset; 
+ border-width: 7px;  
+ border-color: darkgray; 
+ padding: 15px;
+ margin: 0;
+ position: absolute;
+ top: 7.2em;
+ left: 1.5em;
+ width: 7em;
+ background-image: url('Het menu.jpg');
+ background-repeat:  no-repeat;
+ color: red; 
+ font-size: 20px; 
+ font-weight:bold; 
+ font-family:Arial,Helvetica,sans-serif;
+ box-shadow: 0px 0px 5px white;}
+  
+div.menu a {text-decoration: none;}  
+a:link{
+ color: red;}
+
+a:hover {
+ color: blue;	} 
+  
+div.menu a:visited {
+	color: darkred; }
+ 
+#HT{ 
+ background-image: url('Het menu.jpg');
+ background-repeat:  no-repeat;
+ border-style:outset; 
+ border-width: 7px;  
+ border-color: darkgray;
+ padding-left: 2em; 
+ padding-top:  2em; 
+padding-right: 2em; 
+ padding-bottom: 2em;  
+ font-size: 15px;
+ font-weight:bold;
+ font-family:Arial,Helvetica,sans-serif;  
+ color: red;
+ position: absolute;
+ left: 16.9em;
+ top: 9.5em; 
+ box-shadow: 0px 0px 5px white
+ }
+ 
+ #PP{ 
+ background-image: url('Het menu.jpg');
+ background-repeat:  no-repeat;
+ border-style:outset; 
+ border-width: 7px;  
+ border-color: darkgray;
+ padding-left: 2em; 
+ padding-top:  2em; 
+ padding-right: 2em; 
+ padding-bottom: 2em;  
+ font-size: 15px;
+ font-weight:bold;
+ font-family:Arial,Helvetica,sans-serif;  
+ color: red;
+ position: absolute;
+ left: 61.3em;
+ top: 9.6em; 
+ box-shadow: 0px 0px 5px white
+ }
+ 
+ ul {list-style-type: square;}
+ 
+ div.button{
+ 	position: absolute;
+ 	left: 3.9em;
+ 	top: 9em;
+ 	}
+ 	
+#accordion{ 
+ background-image: url('Het menu.jpg');
+ background-repeat:  no-repeat;
+ border-style:outset; 
+ border-width: 7px;  
+ border-color: darkgray; 
+ padding-left: 2em; 
+ padding-top:  2em; 
+ padding-right: 2em; 
+ padding-bottom: 2em;  
+ font-size: 15px;
+ font-weight:bold;
+ font-family:Arial,Helvetica,sans-serif;  
+ color: red;
+ position: absolute;
+ left: 37.5em;
+ top: 9.6em; 
+ width: 40%;
+ box-shadow: 0px 0px 5px white
+ }
+ 
+#YT {
+ 
+ }
+ 
+#YG {
+ position: absolute;
+ top: 9em;
+ left: 53em; 	
+ border-style:outset; 
+ border-width: 7px; 
+ border-color: darkgray; 
+ box-shadow: 0px 0px 5px white
+  }  
+
+#foto {
+ position: absolute;
+ top: 25.15em;
+ left: 16.05em; 	
+ border-style:outset; 
+ border-width: 7px;
+ border-color: darkgray; 
+ box-shadow: 0px 0px 5px white
+   }
+	
+#FB {
+width: 0.5em;
+height: 0.5em; 	
+	}	
+	
+#WC {
+	padding-left: 7.5em;
+	padding-top: 3em;
+	}
+	
+#box {
+padding-left: 2em;	
+padding-right: 5em;
+padding-bottom: 2em;	
+	position: absolute;
+   left: 21.5em;
+   top: 12em; 
+   border-style:outset; 
+   border-width: 7px; 
+   border-color: darkgray;    
+   background-image: url('Het menu.jpg');
+   background-repeat:  no-repeat;
+   width: 43em;
+   height: 40em;
+   font-size: 12px;
+   font-weight:bold;
+   font-family:Arial,Helvetica,sans-serif;  
+   color: red;
+   box-shadow: 0px 0px 5px white
+	}
+ 	
+ #accordidom { 
+ background-image: url('Het menu.jpg');
+ background-repeat:  no-repeat;
+ border-style:outset; 
+ border-width: 7px;  
+ border-color: darkgray;
+ padding-left: 2em; 
+ padding-top:  2em; 
+ padding-right: 2em; 
+ padding-bottom: 2em;  
+ font-size: 15px;
+ font-weight:bold;
+ font-family:Arial,Helvetica,sans-serif;  
+ color: red;
+ position: absolute;
+  left: 18em;
+ top: 9.5em; 
+ width: 40%;
+ box-shadow: 0px 0px 5px white
+ }
+ 
+ #ik {
+ position: absolute;
+ top: 8.8em;
+ left: 64.05em; 	
+ border-style:outset; 
+ border-width: 7px;
+ border-color: darkgray; 
+ box-shadow: 0px 0px 5px white}
+ 
+
